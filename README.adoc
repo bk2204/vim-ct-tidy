@@ -1,0 +1,12 @@
+= Code Tidying Rules for Vim
+
+This is a plugin for Vim that runs various types of code through a tidy tool,
+such as perltidy.  Tidy rules are key bindings are controlled by a theme.
+
+For the default rules used at cPanel, which have rules for Perl, Python, and
+JavaScript, simply add the following to your .vimrc:
+
+[source,vim]
+----
+let g:cttidy_theme = 'cPanel'
+----
