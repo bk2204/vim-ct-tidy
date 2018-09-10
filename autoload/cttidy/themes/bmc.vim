@@ -3,7 +3,8 @@ let s:cttidy_defaults = {
 	\'tools': {
 		\'perl': 'perltidy -q',
 		\'javascript': '/usr/local/cpanel/3rdparty/node/bin/js-beautify -f -',
-		\'python': 'pythontidy'
+		\'python': 'pythontidy',
+		\'go': 'gofmt',
 	\}
 \}
 
