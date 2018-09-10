@@ -5,6 +5,7 @@ let s:cttidy_defaults = {
 		\'javascript': '/usr/local/cpanel/3rdparty/node/bin/js-beautify -f -',
 		\'python': 'pythontidy',
 		\'go': 'gofmt',
+		\'rust': 'rustfmt',
 	\}
 \}
 
